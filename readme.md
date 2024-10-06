@@ -20,3 +20,16 @@
 | 代码块名称                         | 备注 | 链接                                                                                                                                                          |
 | ---------------------------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 全局变量与 module 局部变量联动方式 |      | [https://github.com/xmx134/code-chunk/blob/master/](https://github.com/xmx134/code-chunk/blob/master/login/verification-code-countdown.vue)models-generics.ts |
+
+## axios
+
+| 代码块名称      | 备注 | 链接                                                                                                                                                           |
+| --------------- | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 基础 axios 模板 |      | [https://github.com/xmx134/code-chunk/blob/master/](https://github.com/xmx134/code-chunk/blob/master/login/verification-code-countdown.vue)axios/base-axios.ts |
+
+## utils 工具包
+
+| 代码块名称             | 备注 | 链接                                                                                                                                                                      |
+| ---------------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 判断参数原型是否为对象 |      | [https://github.com/xmx134/code-chunk/blob/master/](https://github.com/xmx134/code-chunk/blob/master/login/verification-code-countdown.vue)utils/object-utils/isObject.ts |
+| 休眠                   |      | [https://github.com/xmx134/code-chunk/blob/master/](https://github.com/xmx134/code-chunk/blob/master/login/verification-code-countdown.vue)utils/sleep.ts                 |
