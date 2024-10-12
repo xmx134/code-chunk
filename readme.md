@@ -29,7 +29,8 @@
 
 ## utils 工具包
 
-| 代码块名称             | 备注 | 链接                                                                            |
-| ---------------------- | ---- | ------------------------------------------------------------------------------- |
-| 判断参数原型是否为对象 |      | https://github.com/xmx134/code-chunk/blob/master/utils/object-utils/isObject.ts |
-| 休眠                   |      | (https://github.com/xmx134/code-chunk/blob/master/utils/sleep.ts                |
+| 代码块名称             | 备注 | 链接                                                                                 |
+| ---------------------- | ---- | ------------------------------------------------------------------------------------ |
+| 判断参数原型是否为对象 |      | https://github.com/xmx134/code-chunk/blob/master/utils/object-utils/isObject.ts      |
+| 简化对象               |      | https://github.com/xmx134/code-chunk/blob/master/utils/object-utils/compactObject.ts |
+| 休眠                   |      | https://github.com/xmx134/code-chunk/blob/master/utils/sleep.ts                      |
