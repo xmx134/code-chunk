@@ -35,3 +35,9 @@
 | 简化对象                           |      | https://github.com/xmx134/code-chunk/blob/master/utils/object-utils/compactObject.ts         |
 | 休眠                               |      | https://github.com/xmx134/code-chunk/blob/master/utils/sleep.ts                              |
 | 移除字符串前后多余的指定 char 字符 |      | https://github.com/xmx134/code-chunk/blob/master/utils/string-utils/removeTrailingStrings.ts |
+
+## vite
+
+| 代码块名称 | 备注 | 链接                                                                 |
+| ---------- | ---- | -------------------------------------------------------------------- |
+| vite 配置  |      | https://github.com/xmx134/code-chunk/blob/master/vite/vite.config.ts |
