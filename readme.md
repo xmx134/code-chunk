@@ -15,6 +15,12 @@
 | 登录路由守卫 |      | https://github.com/xmx134/code-chunk/blob/master/vue-router/beforeEach-login.ts |
 | 动态导入     |      | https://github.com/xmx134/code-chunk/blob/master/vue-router/component-import.ts |
 
+## vue 常用组合式函数
+
+| 代码块名称 | 备注 | 链接                                                                        |
+| ---------- | ---- | --------------------------------------------------------------------------- |
+| vite 配置  |      | https://github.com/xmx134/code-chunk/blob/master/vue常用组合式函数/fetch.js |
+
 ## vuex 相关
 
 | 代码块名称                         | 备注 | 链接                                                                     |
