@@ -1,4 +1,4 @@
-// fetch.js
+// 基础fetch.js,支持一次性调用接口，不支持url修改后重新发送请求
 import { ref } from 'vue'
 
 export function useFetch(url) {

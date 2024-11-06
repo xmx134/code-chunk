@@ -1,0 +1,49 @@
+// package.json中的eslint配置
+{
+    // eslint 配置脚本，运行lint指令以使用eslint检查项目代码
+    "scripts": {
+      "lint": "vue-cli-service lint"
+    },
+    // 依赖安装
+    "devDependencies": {
+      "@rushstack/eslint-patch": "^1.8.0",
+      "@typescript-eslint/eslint-plugin": "^5.4.0",
+      "@typescript-eslint/parser": "^5.4.0",
+      "@vue/cli-plugin-babel": "~5.0.0",
+      "@vue/cli-plugin-eslint": "~5.0.0",
+      "@vue/cli-plugin-router": "~5.0.0",
+      "@vue/cli-plugin-typescript": "~5.0.0",
+      "@vue/cli-plugin-vuex": "~5.0.0",
+      "@vue/cli-service": "~5.0.0",
+      "@vue/eslint-config-prettier": "^9.0.0",
+      "@vue/eslint-config-typescript": "^14.1.3",
+      "@vue/typescript": "^1.8.20",
+      "eslint": "^7.32.0",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-prettier": "^4.0.0",
+      "eslint-plugin-vue": "^8.0.3",
+      "prettier": "^2.4.1"
+    },
+    // eslint配置，等效于.eslintrc.js文件
+  "eslintConfig": {
+    // 表明这个文件已经是eslint配置的根文件，无需再向上找其他配置文件
+    "root": true,
+    // 运行环境配置
+    "env": {
+      "node": true
+    },
+    // 规则集合，可以使用各大厂配置好的
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended",
+      "plugin:prettier/recommended"
+    ],
+    // 解析器设置，一般需要ts、es解析
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    // 自定义规则配置，核心配置，需要定义什么配置都可以往里放
+    "rules": {}
+  }
+}
