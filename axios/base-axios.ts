@@ -3,6 +3,7 @@
 
 // 引入 axios
 import axios from 'axios'
+import qs from 'qs'
 
 // 创建 axios 实例
 const instance = axios.create({
